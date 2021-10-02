@@ -12,7 +12,7 @@ function showMessage(message) {
 
 function calculateAreaOfTraingle() {
   const area = (Number(baseValue.value) * Number(heightValue.value)) / 2;
-  showMessage('Area of triangle is: ' + area + ' cm2.');
+  showMessage('Area of triangle is: ' + area + ' cm.');
 }
 
 calculateArea.addEventListener('click', calculateAreaOfTraingle);
